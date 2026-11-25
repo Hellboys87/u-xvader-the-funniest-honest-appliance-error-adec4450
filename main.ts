@@ -8,7 +8,7 @@ import { join } from "node:path";
 const MAX_CHARS = 200;
 
 const line =
-  "UNBALANCED LOAD: It's not me, it's you — 14 towels on one side, one sock on the other. I will not spin and waddle across the floor again.";
+  "UNBALANCED LOAD: It's not me, it's you — 14 towels on one side, one lonely sock on the other. I refuse to spin and waddle across the floor like a drunk penguin again.";
 
 if (line.length === 0) {
   throw new Error("entry line must not be empty");
